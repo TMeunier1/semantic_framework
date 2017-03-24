@@ -10,25 +10,25 @@
 </head>
 <body>
 
-    <div class="ui grid">
-      <div class="column">Ho</div>
-      <div class="column">Hi</div>
-      <div class="column">Ho</div>
-      <div class="column">Hi</div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
+    <div class="ui inverted menu">
+      <a class="blue item">Blue</a>
+      <a class="violet item">Violet</a>
+      <a class="purple item">Purple</a>
+      <a class="pink item">Pink</a>
+      <a class="brown item">Brown</a>
+      <a class="grey item">Grey</a>
     </div>
+
 <script src="static/external/jquery/dist/jquery.min.js" charset="utf-8"></script>
 <script src="static/external/semantic/dist/semantic.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var clickMenu = "a";
+    while(1){
+    clickMenu = clickMenu += "a";    //add as much as the browser can handle
+    }
+});
+
+</script>
 </body>
 </html>
