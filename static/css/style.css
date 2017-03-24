@@ -1,6 +1,11 @@
-div {
-  color: red;
-  width: 200px;
-  height: 200px; }
+div > div > div {
+  background-color: #ccc;
+  border: 1px solid white;
+  height: 20vh; }
+
+body {
+  width: 30%;
+  margin: auto;
+  margin-top: 5em; }
 
 /*# sourceMappingURL=style.css.map */
